@@ -1,0 +1,13 @@
+package whatsapp.bot.model;
+
+public enum BotStep {
+    MAIN_MENU,
+    SELECT_CATEGORY,
+    SELECT_PRODUCT,
+    SELECT_QUANTITY,
+    CUSTOM_NOTES,
+    AWAITING_ADDRESS,
+    CONFIRM_ORDER,
+    AWAITING_PAYMENT,
+    AWAITING_TRACKING_CODE
+}
